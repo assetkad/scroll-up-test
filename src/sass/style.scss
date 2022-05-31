@@ -1,0 +1,21 @@
+body,
+html {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}  
+#arrowTop {
+    height: 9px;
+    width: 14px;
+    color: green;
+    position: fixed;
+    bottom: 100px;
+    right:75px;
+    cursor: pointer;
+    font-size: 57px;
+  }
+
+  #arrowTop::before {
+    content: '▲';
+  }
